@@ -13,15 +13,19 @@
     }
 
     function mostra(texto){
-        document.wwrite(texto)
+        document.write(texto)
         pulaLinha()
     }
-    let pesoGu = 58
-    let alturaGu = 1.70
 
-    let imcGu = pesoGU/(alturaGu*alturaGu)
-    mostra(` O IMC de Gustavo é ${imcGu}`)//template string
-    mostra('O IMC de Gustavo é' + imcGu)//concatenaçao normal
+    function calcularIMC(peso, altura){
+     return   imc = peso/(altura*altura)
+        
+    }
+    let imcGu = calcularIMC(57, 1.70)
+
+    mostra(' O IMC de Gustavo é: ' + imcGu)
+
+    
    </script> 
 </body>
 </html>
