@@ -16,13 +16,14 @@
         document.write(texto)
         pulaLinha()
     }
-
     function calcularIMC(peso, altura){
      return   imc = peso/(altura*altura)
         
     }
     let imcGu = calcularIMC(57, 1.70)
-
+let nome = prompt('Qual seu nome?')
+let alturaInformada = prompt(`${nome},qual sua altura?`)
+let pesoInformado = prompt(`${nome}, qual seu peso?`)
     mostra(' O IMC de Gustavo é: ' + imcGu)
 
     
