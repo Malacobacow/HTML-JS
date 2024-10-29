@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adivinhador de numeros</title>
+    <title>Document</title>
 </head>
 <body>
     <script>
@@ -16,19 +16,13 @@
             document.write(texto)
             pulalinha()
         }
+        let anoInicial = 1896
 
-        //guarda numeroSecreto
-        let numeroSecreto = 5
-
-        let chute = prompt('qual o numero secreto entre 0 e 10?')
-
-        if (numeroSecreto == chute){
-            mostra ('voce acertou')
-        }
-        else{
-            mostra('voce errou')
+        while(anoInicial <= 2024){
+            mostra(`${anoInicial} teve olimpiadas`)
+            anoInicial = + 4
         }
 
-       </script>
+        </script>
 </body>
 </html>
