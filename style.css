@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fonte-titulo:"Danfo", serif;
+    --fonte-texto: "Roboto Flex", sans-serif;
+
+    --cor1: #edede9ff;
+    --cor2: #d6ccc2ff;
+    --cor3: #f5ebe0ff;
+    --cor4: rgb(226, 210, 197);
+    --cor5: #d5bdafff;
+    --cor6: #000000e1;
+    --cor7: #f3f1f1;
+
+}
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-texto);
+}
+header, footer{
+    background-color: var(--cor3);
+    padding: 2em;
+    color: var(--cor6);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor2);
+}
